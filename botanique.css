@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(4, 4, 53);
+    padding: 0;
+    margin: 0;
+    color: cornsilk;
+    text-decoration: none;
+}
+body .page{
+    margin: 20px 80px;
+}
+
+nav{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;
+   background-color:rgb(4, 4, 53) ;
+   padding: 10px 0px;
+}
+nav .onglet{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+nav .onglets a{
+    margin: 20px;
+    text-decoration: none;
+    color:cornsilk ;
+}
+nav .buttons button{
+    padding: 13px 20px;
+    border: none;
+    color: cornsilk;
+    background-color: rgb(14, 144, 224);
+    font-size: 15px;
+    cursor: pointer;
+}
+nav .buttons .login{
+    background-color: inherit; 
+    margin-right: 10px;
+    color: rgb(14, 144, 224);
+}
+nav .buttons .regiter{
+    background-color: inherit; 
+    margin-right: 10px;
+    color: rgb(14, 144, 224);
+}
+
+.header2{
+    margin-top: 40px;
+    background:url('https://st.depositphotos.com/1008154/2747/i/450/depositphotos_27476057-stock-photo-moon-over-lake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px 400px;
+}
+.header2 h1{
+    text-align: center;
+    font-size: 70px;
+    padding: 150px;
+}
+footer{
+   background-color: #1a1a1a; 
+   padding: 25px 100px;
+   color: rgb(14, 144, 224);
+}
+footer .colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+
+header .header1{
+    margin-top: 20px;
+    background:url('https://i.ytimg.com/vi/O6MadBLH-0I/maxresdefault.jpg');
+    background-position: center;
+    background-size: 400px 200px;
+}
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: cornsilk;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+span.text{
+    color: cornsilk;
+}
+
+h3{
+    font-family: arial;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;  
+}
+
+p#text5{
+    border-style: inset;
+    border-color: lightskyblue;
+    border-width: 13px;
+    margin-top: 15;
+    height: 150;
+    display: inline-block;
+    width: 100%;
+    background-color: black;    
+}
+ 
+p#text1{
+    border-style: inset;
+    border-color: lightskyblue;
+    border-width: 13px;
+    margin-top: -15;
+    height: 150;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+}
+ 
+p#text2{
+    border-style: inset;
+    background-color: black;
+    border-color: lightskyblue;
+    border-width: 13px;
+    padding-bottom: 70;
+    margin-top: -15;
+    height: 150px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+ 
+h3#text{
+    font-family: arial;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;  
+}
+
+h3#text3{
+    font-family: arial;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;  
+}
+
+h3#text4{
+    font-family: arial;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;  
+}
+h3#text5{
+    font-family: arial;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-width: medium;
+    border-color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;  
+    
+}
+#img3{
+    height: 450px;
+    background-image: url("https://th.bing.com/th/id/OIP.IVg88JOsQp-u_kzW2qrfwgHaCd?w=321&h=116&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: 400px 400px;
+    padding: 10px 10px 10px;
+}
+p#textrh{
+    border-style: inset;
+    background-color: black;
+    border-color: lightskyblue;
+    border-width: 13px;
+    margin-top: -15;
+    padding: 1em; 
+    margin: 10px 80px 10px;
+}
+#imgR{
+    height: 350px;
+    background-image: url("https://th.bing.com/th/id/OIP.I7SNBvO6sy8ec0CRWfoEWgHaE8?w=245&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: 400px 400px;
+    padding: 10px 10px 10px;
+    margin-top: 20px;
+}
+
+.flotte{
+    float: right;
+    margin-right: 25%;
+}
+
+.flotte1{
+    float: right;
+    width: 40%;
+    padding-right: 10%;
+    margin-top: -25%;
+}
+
+.flotte2{
+    float: right;
+    margin-right: 20%;
+    margin-top: -15%;
+}
+
+.flotte3{
+    float: right;
+    width: 40%;
+    padding-right: 10%;
+    margin-top: -10%;
+}
+
+#imgphoto{
+    width:250px;
+    height:350px;
+
+}
+
+.imgFleur{
+    float: right ;
+    width:250px;
+    height:50px;
+    left:50px;
+}
+.h1Meriem .h2Meriem .h3Meriem .h4Meriem{
+   text-align: center;
+   font-size: 15px;
+}
+#imgmeriem{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2Meriem{
+    float: center;
+    border-style: inset;
+    border-color: lightskyblue;
+    border-width: 10px;
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+    background-color: black;
+}
+
+#imgPre{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
